@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AuctionCars\\src\\AuctionService\\AuctionService.csproj": {}
+    "E:\\Projects\\NEXT\\AuctionCar\\src\\AuctionService\\AuctionService.csproj": {}
   },
   "projects": {
-    "D:\\AuctionCars\\src\\AuctionService\\AuctionService.csproj": {
+    "E:\\Projects\\NEXT\\AuctionCar\\src\\AuctionService\\AuctionService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AuctionCars\\src\\AuctionService\\AuctionService.csproj",
+        "projectUniqueName": "E:\\Projects\\NEXT\\AuctionCar\\src\\AuctionService\\AuctionService.csproj",
         "projectName": "AuctionService",
-        "projectPath": "D:\\AuctionCars\\src\\AuctionService\\AuctionService.csproj",
-        "packagesPath": "C:\\Users\\arunav\\.nuget\\packages\\",
-        "outputPath": "D:\\AuctionCars\\src\\AuctionService\\obj\\",
+        "projectPath": "E:\\Projects\\NEXT\\AuctionCar\\src\\AuctionService\\AuctionService.csproj",
+        "packagesPath": "C:\\Users\\Arunav\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\NEXT\\AuctionCar\\src\\AuctionService\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\arunav\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Arunav\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,6 +60,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.16, 7.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.16, 7.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.16, 7.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.16, 7.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -73,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
