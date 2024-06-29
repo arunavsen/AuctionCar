@@ -22,17 +22,17 @@ public class DbInitializer
 
         if (count == 0)
         {
-            // using var scope = app.Services.CreateScope();
+            //using var scope = app.Services.CreateScope();
 
-            // var httpClient = scope.ServiceProvider.GetRequiredService<AuctionSvcHttpClient>();
+            //var httpClient = scope.ServiceProvider.GetRequiredService<AuctionSvcHttpClient>();
 
             var itemData = await File.ReadAllTextAsync("Data/auctions.json");
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             var items = JsonSerializer.Deserialize<List<Item>>(itemData, options);
             await DB.SaveAsync(items);
-            // Console.WriteLine(items.Count + " returned from the auction service");
+            Console.WriteLine(items.Count + " returned from the auction service");
 
-            // if (items.Count > 0) await DB.SaveAsync(items);
+            if (items.Count > 0) await DB.SaveAsync(items);
         }
     }
 }

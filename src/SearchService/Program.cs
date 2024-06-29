@@ -24,8 +24,8 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-await DB.InitAsync("SearchDB", MongoClientSettings
-    .FromConnectionString(builder.Configuration.GetConnectionString("MongoDbConnection")));
+    //                                                                                                     await DB.InitAsync("SearchDB", MongoClientSettings
+    //.FromConnectionString(builder.Configuration.GetConnectionString("MongoDbConnection")));
 
 try
 {
